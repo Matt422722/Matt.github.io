@@ -45,3 +45,23 @@ document.addEventListener("click", function(event){
         closeForm()
     }
 }, false )
+
+//This code brings the user back to the top of the page when button is clicked//
+window.onscroll = function() {
+    scrollFunction();
+  };
+  function scrollFunction() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      document.getElementById("backToTop").style.display = "block";
+    } else {
+      document.getElementById("backToTop").style.display = "none";
+    }
+  }
+  
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  
+  document.getElementById("backToTop").addEventListener("click", topFunction);
+  
