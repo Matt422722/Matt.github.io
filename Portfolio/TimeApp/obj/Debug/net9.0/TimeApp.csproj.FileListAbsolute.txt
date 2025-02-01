@@ -1,0 +1,15 @@
+D:\myRepository\Portfolio\TimeApp\bin\Debug\net9.0\TimeApp.exe
+D:\myRepository\Portfolio\TimeApp\bin\Debug\net9.0\TimeApp.deps.json
+D:\myRepository\Portfolio\TimeApp\bin\Debug\net9.0\TimeApp.runtimeconfig.json
+D:\myRepository\Portfolio\TimeApp\bin\Debug\net9.0\TimeApp.dll
+D:\myRepository\Portfolio\TimeApp\bin\Debug\net9.0\TimeApp.pdb
+D:\myRepository\Portfolio\TimeApp\obj\Debug\net9.0\TimeApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\myRepository\Portfolio\TimeApp\obj\Debug\net9.0\TimeApp.AssemblyInfoInputs.cache
+D:\myRepository\Portfolio\TimeApp\obj\Debug\net9.0\TimeApp.AssemblyInfo.cs
+D:\myRepository\Portfolio\TimeApp\obj\Debug\net9.0\TimeApp.csproj.CoreCompileInputs.cache
+D:\myRepository\Portfolio\TimeApp\obj\Debug\net9.0\TimeApp.sourcelink.json
+D:\myRepository\Portfolio\TimeApp\obj\Debug\net9.0\TimeApp.dll
+D:\myRepository\Portfolio\TimeApp\obj\Debug\net9.0\refint\TimeApp.dll
+D:\myRepository\Portfolio\TimeApp\obj\Debug\net9.0\TimeApp.pdb
+D:\myRepository\Portfolio\TimeApp\obj\Debug\net9.0\TimeApp.genruntimeconfig.cache
+D:\myRepository\Portfolio\TimeApp\obj\Debug\net9.0\ref\TimeApp.dll
