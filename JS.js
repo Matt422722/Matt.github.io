@@ -1,4 +1,4 @@
-//These functions open and close the contact form
+JS: //These functions open and close the contact form
 function openForm(){
     document.getElementById("myForm").style.display = "block";
 }
@@ -64,28 +64,7 @@ window.onscroll = function() {
   }
   
   document.getElementById("backToTop").addEventListener("click", topFunction);
-  
-//TimeApp
-function fetchTime() {
-  fetch('currentTime.txt') // Fetch from the file
-      .then(response => response.text())
-      .then(data => {
-          const timeBox = document.getElementById('time-box');
-          
-          // Only update the time if it has changed to avoid unnecessary re-renders
-          if (timeBox.textContent !== data) {
-              timeBox.textContent = data;
-          }
-      })
-      .catch(error => {
-          document.getElementById('time-box').textContent = "Error loading time";
-      });
-}
 
-// Update the time every minute (60,000 milliseconds)
-setInterval(fetchTime, 60000);
 
-// Initial call to display the time immediately
-fetchTime();
 
 
