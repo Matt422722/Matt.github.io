@@ -9,29 +9,27 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto+Slab:wght@500&family=Sacramento&family=Yesteryear&display=swap');
         </style>
-
     </head>
 
     <!--Body-->
     <body class="Background">
         
-<!-- Navbar -->
-<div class="Navbar">
-    <a href="#Home">Home</a>
-    <a href="#About">About</a>
-    <a href="https://github.com/YourGitHub" target="_blank">GitHub</a>
-    <a onclick="openForm()" ondblclick="closeForm()" class="contact" href="#Contact">Contact</a>
-</div>
-<div class="time-container">
-    <div id="time-box" class="time-box"></div>
-</div>
+        <!--Navbar-->
+        <div class="Navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <!--Onclick and ondblclick functions to open and close contact form-->
+            <a onclick="openForm()" ondblclick="closeForm()" class="contact" href="#Contact">Contact</a>
+        </div>
+
         <!--Breaks inserted to add space between navbar and the first heading-->
         <br>
         <br>
 
         <!--Background video-->
         <div id="Home">
-                <img src="Images/Kiki.jpg" alt=" Kiki top boarder Image" class="full-width-img">
+                <img src="Kiki.jpg" alt=" Kiki top boarder Image" class="full-width-img">
         </div>
 
         <!--Intro text-->
@@ -52,17 +50,17 @@
                         <div id="Slideshow_Container">
                             <!-- Slide 1 of 6 -->
                             <div class="mySlides fade">
-                                <img class="Slideshow_Images" src="Images/me.jpg" alt="Picture of yourself">
+                                <img class="Slideshow_Images" src="me.jpg" alt="Picture of yourself">
                                 <div class="text">I can help you with projects</div>
                             </div>
                             <!-- Slide 2 of 6 -->
                             <div class="mySlides fade">
-                                <img class="Slideshow_Images" src="Images/html.png" alt="HTML, CSS, and JS logos"> 
+                                <img class="Slideshow_Images" src="html.png" alt="HTML, CSS, and JS logos"> 
                                 <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
                             </div>
                             <!-- Slide 6 of 6 -->
                             <div class="mySlides fade">
-                                <img class="Slideshow_Images" src="Images/contact.png" alt="Replace with a picture of your choosing"> 
+                                <img class="Slideshow_Images" src="contact.png" alt="Replace with a picture of your choosing"> 
                                 <div class="text"><a class="white-text contact" onclick="openForm()">Contact me now!</a></div> 
                             </div>
                             <!-- Previous and next buttons -->
@@ -84,7 +82,7 @@
         <div class="Row" id="About">
             <!--Left column-->
             <div class="Column_2">
-                <img src="Images/Matthew.JPG" alt="Picture of Matthew" class="Matthew">
+                <img src="Matthew.JPG" alt="Picture of Matthew" class="Matthew">
             </div>
             <!--Right column-->
             <div class="Column_1">
@@ -113,17 +111,9 @@
             </div>
             <!--Right column-->
             <div class="Column_2">
-                <a href="https://github.com/Matt422722" target="_blank"><img src="Images/GitHub.png" alt="GitHub Logo" class="Matthew"></a>
+                <a href="https://github.com/Matt422722" target="_blank"><img src="GitHub.png" alt="GitHub Logo" class="Matthew"></a>
             </div>
         </div>
-
-        <!--Live View-->
-        <div class="project-container">
-            <p class="project-title">Select a project to view:</p>
-            <ul class="project-list">
-                <li><a href="TicTacToe\TicTacToe.html" class="project-link">Tic Tac Toe</a></li>
-            </ul>
-        </div>        
 
         <!--Contact section-->
         <div id="Contact">
@@ -145,10 +135,6 @@
                  </form>
             </div>
          </div>
-
-         <!--Button to bring user back to the top of the page-->
-         <button id="backToTop" title="Go to top"><i class="fas fa-arrow-up">BackToTop</i> </button> 
-
 
         <!--FOOTER-->
         <footer>
